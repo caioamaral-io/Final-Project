@@ -14,7 +14,7 @@
 
 Este projeto é uma API REST para gerenciamento de produtos, como projeto final do Bootcamp Java da Deloitte. A aplicação foi projetada com foco na arquitetura limpa, boas práticas de desenvolvimento, princípios SOLID e qualidade de código, servindo como uma base sólida para aplicações Java modernas e escaláveis.
 
-A API permite a execução completa de operações CRUD (Create, Read, Update, Delete) de forma clara, organizada e segura, utilizando DTOs, camada de serviço, Spring Data JPA e Hibernate. Para facilitar o desenvolvimento e os testes, é utilizado um banco de dados H2 em memória, juntamente com documentação interativa via Swagger/OpenAPI e deployment na nuvem via Microsoft Azure.
+A API permite a execução completa de operações CRUD (Create, Read, Update, Delete) de forma clara, organizada e segura, utilizando DTOs, camada de serviço, Spring Data JPA e Hibernate. Para facilitar o desenvolvimento e os testes, é utilizado um banco de dados H2 em memória, juntamente com documentação interativa via Swagger e deployment na nuvem via Microsoft Azure.
 
 Toda a comunicação com o cliente é realizada por JSON, seguindo estritamente os padrões REST, com os códigos de status HTTP apropriados sendo retornados para cada cenário.
 
@@ -38,7 +38,6 @@ A API foi projetada para servir como uma base sólida e profissional para projet
 - Tratamento de exceções global e personalizado;
 - Mensagem simples para verificação do status da API;
 - Acesso ao console H2 via navegador para inspeção do banco de dados;
-- Configuração CORS para fácil integração com frontend;
 - Documentação interativa com Swagger UI para testes rápidos de endpoints.
 
 ## Filosofia
@@ -66,7 +65,7 @@ Essa estrutura melhora a legibilidade, manutenção e torna o projeto facilmente
 - **Spring Data JPA**
 - **Hibernate**
 - **Banco de Dados H2**
-- **Swagger / OpenAPI**
+- **Swagger**
 - **Maven**
 - **Microsoft Azure** (deployment)
 
